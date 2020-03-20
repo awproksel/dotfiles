@@ -15,3 +15,5 @@ plugins=(zsh-autosuggestions)
 
 
 # customizations 
+export VISUAL=vim
+export EDITOR="$VISUAL"
