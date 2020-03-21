@@ -1,5 +1,4 @@
 # configure zsh
-ZSH_THEME="spaceship"
 HISTFILE=~/.zsh_history
 HISTSIZE=1000000
 SAVEHIST=$HISTSIZE
@@ -10,10 +9,9 @@ setopt CORRECT_ALL # try to correct spelling of all arguments in a line
 
 zstyle ':completion:*' group-name '' # group results by category
 
-# plugins
-plugins=(zsh-autosuggestions)
-
-
-# customizations 
+# other 
 export VISUAL=vim
 export EDITOR="$VISUAL"
+
+# starship
+eval "$(starship init zsh)"
