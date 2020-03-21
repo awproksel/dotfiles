@@ -18,3 +18,20 @@ export EDITOR="$VISUAL"
 
 # starship
 eval "$(starship init zsh)"
+
+# aliases
+alias ls="ls -l --color"
+alias aspen="tree -h -f C"
+alias public_ip="curl ipecho.net/plain; echo"
+
+
+# functions
+flip() {
+  echo;
+  echo -en "( º_º）  ┬─┬   \r"; sleep .5;
+  echo -en " ( º_º） ┬─┬   \r"; sleep .5;
+  echo -en "  ( ºДº）┬─┬   \r"; sleep .5;
+  echo -en "  (╯'Д'）╯︵⊏   \r"; sleep .5;
+  echo -en "  (╯'□'）╯︵ ⊏  \r"; sleep .5;
+  echo     "  (╯°□°）╯︵ ┻━┻"; sleep .5;
+}
