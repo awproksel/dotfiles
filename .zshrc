@@ -38,7 +38,3 @@ flip() {
 
 # Go
 export PATH=$PATH:/usr/local/go/bin
-export GOPATH=$HOME/workspace_go
-export GOBIN=$GOPATH/bin
-export PATH=$PATH:$GOPATH/bin
-export PATH=$PATH:$GOBIN/bin
