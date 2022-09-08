@@ -16,6 +16,9 @@ plugins=(zsh-autosuggestions)
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
+# brew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # starship
 eval "$(starship init zsh)"
 
