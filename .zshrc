@@ -40,4 +40,5 @@ flip() {
 }
 
 # Go
+export PATH=$PATH:~/go/bin
 export PATH=$PATH:/usr/local/go/bin
