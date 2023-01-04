@@ -23,7 +23,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(starship init zsh)"
 
 # aliases
-alias ls="ls -l --color"
 alias aspen="tree -h -f C"
 alias public_ip="curl ipecho.net/plain; echo"
 
