@@ -6,3 +6,8 @@ Makes use of/works best with:
 * [starship](https://starship.rs/)
 * [A Powerline font](https://github.com/tonsky/FiraCode)
 * [hyper](https://github.com/zeit/hyper)
+
+# Next Steps
+
+- `ln -sf dotfiles/.vimrc ~/`
+- `ln -sf dotfiles/.zshrc ~/`
